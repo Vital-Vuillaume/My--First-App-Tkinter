@@ -51,7 +51,7 @@ def update_image(file_path):
     canvas2.tag_bind("img2", '<Button-1>', save_transformed_image)
 
 app = tk.Tk()
-app.title("ColorInvertor")
+app.title("Color-Invertor")
 
 app.configure(bg="#1a1a30")
 global_font = ('Ubuntu',)
